@@ -123,7 +123,6 @@ Hd3 = dfilt.dffir(b);
  end
  input=[feature_normal;feature_abnormal];
  output=[zeros(100,1);ones(100,1)];
- hog_feature_vector(im)
 %  output = repelem([{'normal'}, {'eplectic'}], [100 100])';
 %  mix=[input output];
 %  mix=cell2mat(mix);
